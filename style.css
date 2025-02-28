@@ -59,3 +59,19 @@ nav a{
     padding: 8px 15px;
     letter-spacing: 1px;
 }
+nav a:hover{
+    color: rgb(3, 153, 253);
+}
+p{
+    font-size:xx-large;
+    padding: 0.5vh;
+}
+#aqua{
+    font-size: 10ch;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+#clubinfo{
+    font-size:8ch;
+    color: rgb(3, 153, 253);
+}
