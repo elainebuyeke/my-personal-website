@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Pacifico&display=swap');
+:root{
+    --header-font:"Lobster",serif;
+    --body-font:"Atkinson+Hyperlegible+Next",serif;
+    --tertiary-color:rgb(18, 18, 102);
+    --primary-white:white;
+}
+.mainpage{
+    background-image: url(./aqua-strides-images/main\ swim.jpeg);
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 16px;
+}
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+}
 body{
-    background: blue;
+    font-family: var(--body-font);
+}
+h1,
+h2,
+h3,
+h4{
+    font-family:var(--header-font);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 40px;
+    font-size: 10ch;
+    color: white;
+    padding: 120px;
+}
+nav{
+    padding: 24px;
+    background-color:var(--tertiary-color);
+    display: flex;
+    align-items:flex-end;
+}
+nav a{
+    color: var(--primary-white);
+    font-weight: 700;
+    font-size: large;
+    padding: 8px 15px;
+    letter-spacing: 1px;
 }
