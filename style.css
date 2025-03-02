@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root{
     --tertiary-color:rgb(48, 47, 47);
     --primary-white: white;
@@ -17,7 +18,16 @@
     color: white;
     font-size:13ch;
     font-weight: 800;
+    text-align: left;
+	align-items: end;
 }
+
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+  }
 .descr{
     color: white;
     font-size: 9ch;
@@ -44,10 +54,6 @@ div{
     text-align: center;
 	
 }  
-.name{
-    text-align: left;
-	align-items: end;
-}
 nav{
     padding: 24px;
     background-color:var(--tertiary-color);
@@ -67,4 +73,86 @@ a{
 nav a:hover{
     color:rgb(197, 6, 6);
 }
+h2{
+    color:rgb(197, 6, 6) ;
+    font-size: 17ch;
+}
+.about{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 0px;
+    flex:auto;
+    text-align: center;
+}
+.me{
+    text-align: left;
+}
+.content{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 40px;
+    min-height:400px;
 
+}
+.img{
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#explanation{
+    font-size:7ch;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    line-height: 2cm;
+}
+h3{
+    color:rgb(197, 6, 6) ;
+    font-size: 4ch;
+}
+#what-i-do{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    width: 12cm;
+    height: 5cm;
+}
+#section{
+    background-color: black;
+    line-height:80px;
+}
+#what-i-do p{
+    color: white;
+    font-size: 3ch;
+}
+#footer{
+    background-color: var(--tertiary-color);
+    flex-direction: column;
+}
+#footer p{
+    font-size: 3ch;
+}
+#personal-info{
+    flex-direction: column;
+}
+#one{
+    float: left;
+    width: 50%;
+}
+#two{
+    float: right;
+    width: 50%;
+}
+.fa-brands{
+    font-size: xx-large;
+    padding: 10px;
+}
