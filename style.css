@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lobster&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Pacifico&display=swap');
 :root{
-    --header-font:"Lobster",serif;
-    --body-font:"Atkinson+Hyperlegible+Next",serif;
-    --tertiary-color:rgb(18, 18, 102);
-    --primary-white:white;
+    --tertiary-color:rgb(48, 47, 47);
+    --primary-white: white;
 }
-.mainpage{
-    background-image: url(./aqua-strides-images/main\ swim.jpeg);
+.main-page{
+    background-image: url(./coding.jpg);
     min-height: 100vh;
     background-size:cover ;
     background-position: center;
@@ -17,34 +13,40 @@
 *{margin: 0%;
     padding: 0%;
     box-sizing: border-box;}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-self: center;
-}
-a{
-    text-decoration: none;
-}
-body{
-    font-family: var(--body-font);
-}
-h1,
-h2,
-h3,
-h4{
-    font-family:var(--header-font);
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    gap: 40px;
-    font-size: 10ch;
+.name{
     color: white;
-    padding: 120px;
+    font-size:13ch;
+    font-weight: 800;
+}
+.descr{
+    color: white;
+    font-size: 9ch;
+    font-weight: 500;
+}
+div{
+    flex-direction: column;
+}
+.info{
+    display: flex;
+	width: 100%;
+    top:50%;
+	margin: auto;
+	margin-top: 200px;
+    padding: 10px;
+}
+.main{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 40px;
+    flex:auto;
+    text-align: center;
+	
+}  
+.name{
+    text-align: left;
+	align-items: end;
 }
 nav{
     padding: 24px;
@@ -54,24 +56,15 @@ nav{
 }
 nav a{
     color: var(--primary-white);
-    font-weight: 700;
-    font-size: large;
+    font-weight: 800;
+    font-size: x-large;
     padding: 8px 15px;
     letter-spacing: 1px;
 }
+a{
+    text-decoration: none;
+}
 nav a:hover{
-    color: rgb(3, 153, 253);
+    color:rgb(197, 6, 6);
 }
-p{
-    font-size:xx-large;
-    padding: 0.5vh;
-}
-#aqua{
-    font-size: 10ch;
-    color: var(--tertiary-color);
-    text-align: center;
-}
-#clubinfo{
-    font-size:8ch;
-    color: rgb(3, 153, 253);
-}
+
